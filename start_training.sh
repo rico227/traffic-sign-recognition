@@ -1,3 +1,2 @@
 #!/bin/sh
-DATASET_LOCATION=dataset
-python train.py --batch 2 --epochs 10 --cfg cfg/training/yolov7.yaml --weights yolov7_training.pt --data $DATASET_LOCATION/data.yaml --device 0
+python train.py --workers 8 --device 0 --batch-size 8 --epochs 10 --data dataset/data.yaml --img 640 640 --cfg cfg/training/yolov7.yaml --weights 'yolov7_training.pt' --name yolov7-gtsdb --hyp data/hyp.scratch.custom.yaml
