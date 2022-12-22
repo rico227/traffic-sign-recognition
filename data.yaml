@@ -39,13 +39,14 @@ names:
 - speed limit 120
 - speed limit 20
 - speed limit 30
+- speed limit 40
 - speed limit 50
 - speed limit 60
 - speed limit 70
 - speed limit 80
 - traffic signal
 - uneven road
-nc: 46
+nc: 47
 train: dataset/train/images
 val: dataset/valid/images
 test: dataset/test/images
