@@ -4,7 +4,7 @@ from roboflow import Roboflow
 
 # constants
 DATASET_NAME = "GTSDB---German-Traffic-Sign-Detection-Benchmark"
-API_KEY = "Ab8pO3HNA4EBf2YOKkJc"
+API_KEY = "API_KEY"
 WORKSPACE_NAME = "mohamed-traore-2ekkp"
 PROJECT_VERSION = 3
 DATASET_FORMAT = "yolov7"
