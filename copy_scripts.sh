@@ -1,1 +1,0 @@
-cp start_training.sh /workspace/yolov7/
