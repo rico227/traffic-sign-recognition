@@ -69,6 +69,11 @@ python detect.py --weights runs/train/yolov7-mixed/weights/best.pt --conf 0.5 --
 ```
 python detect.py --weights runs/train/yolov7-mixed/weights/best.pt --conf 0.5 --img-size 640 --source inference/images/your-image.jpg
 ```
+### Results
+- The results of the training and testing can be found in the 'runs'-directory in the yolov7 directory
+
+![Inference results (video source: https://www.youtube.com/watch?v=vAnMvYPkIQw&t=468s)](https://github.com/rico227/traffic-sign-recognition/blob/main/inference/inference_results.gif)
+
 
 ## References
 1. https://arxiv.org/abs/2207.02696#
